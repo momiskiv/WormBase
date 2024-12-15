@@ -1,0 +1,43 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ANCCAN_22453         -          FAD_binding_2        PF00890.30  9.1e-127  424.4   5.0  1.2e-126  424.0   5.0   1.1   1   0   0   1   1   1   1 transcript=ANCCAN_22453 gene=ANCCAN_22453
+ANCCAN_08679         -          FAD_binding_2        PF00890.30   3.7e-76  257.7   0.2     5e-76  257.3   0.2   1.1   1   0   0   1   1   1   1 transcript=ANCCAN_08679 gene=ANCCAN_08679
+ANCCAN_29997         -          FAD_binding_2        PF00890.30   2.4e-28  100.2   0.0   2.7e-28  100.1   0.0   1.0   1   0   0   1   1   1   1 transcript=ANCCAN_29997 gene=ANCCAN_29997
+ANCCAN_23096         -          FAD_binding_2        PF00890.30   9.4e-09   35.7   0.3   0.00035   20.6   0.2   2.2   2   0   0   2   2   2   2 transcript=ANCCAN_23096 gene=ANCCAN_23096
+ANCCAN_12868         -          FAD_binding_2        PF00890.30   1.1e-08   35.5   0.2   0.00042   20.4   0.2   2.3   2   0   0   2   2   2   2 transcript=ANCCAN_12868 gene=ANCCAN_12868
+ANCCAN_01044         -          FAD_binding_2        PF00890.30   1.1e-08   35.4   0.2   0.00019   21.5   0.6   2.1   2   0   0   2   2   2   2 transcript=ANCCAN_01044 gene=ANCCAN_01044
+ANCCAN_30334         -          FAD_binding_2        PF00890.30   3.5e-08   33.8   0.6   5.4e-08   33.2   0.6   1.2   1   0   0   1   1   1   1 transcript=ANCCAN_30334 gene=ANCCAN_30334
+ANCCAN_08155         -          FAD_binding_2        PF00890.30   4.2e-08   33.5   0.1   1.2e-07   32.1   0.1   1.7   2   0   0   2   2   2   1 transcript=ANCCAN_08155 gene=ANCCAN_08155
+ANCCAN_28818         -          FAD_binding_2        PF00890.30   2.7e-07   30.9   3.3   3.4e-07   30.5   3.3   1.1   1   0   0   1   1   1   1 transcript=ANCCAN_28818 gene=ANCCAN_28818
+ANCCAN_23287         -          FAD_binding_2        PF00890.30   3.5e-07   30.5   4.6   4.2e-05   23.7   2.8   2.6   2   0   0   2   2   2   1 transcript=ANCCAN_23287 gene=ANCCAN_23287
+ANCCAN_16700         -          FAD_binding_2        PF00890.30   3.5e-06   27.2   0.2   7.8e-06   26.0   0.0   1.6   2   0   0   2   2   2   1 transcript=ANCCAN_16700 gene=ANCCAN_16700
+ANCCAN_17639         -          FAD_binding_2        PF00890.30   8.7e-06   25.9   0.0   2.4e-05   24.5   0.0   1.6   2   0   0   2   2   2   1 transcript=ANCCAN_17639 gene=ANCCAN_17639
+ANCCAN_03664         -          FAD_binding_2        PF00890.30   9.2e-06   25.8   5.6   4.9e-05   23.4   3.6   2.3   2   1   0   2   2   2   1 transcript=ANCCAN_03664 gene=ANCCAN_03664
+ANCCAN_06206         -          FAD_binding_2        PF00890.30   3.2e-05   24.0   4.3   3.8e-05   23.8   3.4   1.4   1   1   0   2   2   2   1 transcript=ANCCAN_06206 gene=ANCCAN_06206
+ANCCAN_19219         -          FAD_binding_2        PF00890.30   4.8e-05   23.4   0.2     8e-05   22.7   0.2   1.3   1   0   0   1   1   1   1 transcript=ANCCAN_19219 gene=ANCCAN_19219
+ANCCAN_27623         -          FAD_binding_2        PF00890.30   0.00016   21.7   0.4    0.0025   17.8   0.0   2.3   2   0   0   2   2   2   1 transcript=ANCCAN_27623 gene=ANCCAN_27623
+ANCCAN_19241         -          FAD_binding_2        PF00890.30   0.00017   21.6   1.4   0.00022   21.3   1.4   1.1   1   0   0   1   1   1   1 transcript=ANCCAN_19241 gene=ANCCAN_19241
+ANCCAN_24388         -          FAD_binding_2        PF00890.30   0.00019   21.5   1.4   0.00025   21.1   1.4   1.1   1   0   0   1   1   1   1 transcript=ANCCAN_24388 gene=ANCCAN_24388
+ANCCAN_11442         -          FAD_binding_2        PF00890.30   0.00041   20.4   1.4   0.00057   19.9   1.4   1.2   1   0   0   1   1   1   1 transcript=ANCCAN_11442 gene=ANCCAN_11442
+ANCCAN_22172         -          FAD_binding_2        PF00890.30    0.0011   18.9   0.0    0.0016   18.4   0.0   1.2   1   0   0   1   1   1   1 transcript=ANCCAN_22172 gene=ANCCAN_22172
+ANCCAN_01638         -          FAD_binding_2        PF00890.30    0.0016   18.4   0.1    0.0022   18.0   0.1   1.2   1   0   0   1   1   1   1 transcript=ANCCAN_01638 gene=ANCCAN_01638
+ANCCAN_22275         -          FAD_binding_2        PF00890.30    0.0041   17.1   4.0     0.012   15.5   1.5   2.3   2   0   0   2   2   2   1 transcript=ANCCAN_22275 gene=ANCCAN_22275
+ANCCAN_28985         -          FAD_binding_2        PF00890.30    0.0044   17.0   2.1    0.0083   16.1   2.1   1.4   1   0   0   1   1   1   1 transcript=ANCCAN_28985 gene=ANCCAN_28985
+ANCCAN_04598         -          FAD_binding_2        PF00890.30    0.0063   16.5   0.2       2.3    8.0   0.1   2.3   2   0   0   2   2   2   2 transcript=ANCCAN_04598 gene=ANCCAN_04598
+ANCCAN_19171         -          FAD_binding_2        PF00890.30     0.007   16.3   0.0    0.0094   15.9   0.0   1.2   1   0   0   1   1   1   1 transcript=ANCCAN_19171 gene=ANCCAN_19171
+ANCCAN_18887         -          FAD_binding_2        PF00890.30     0.014   15.4   0.0      0.02   14.8   0.0   1.2   1   0   0   1   1   1   0 transcript=ANCCAN_18887 gene=ANCCAN_18887
+ANCCAN_25925         -          FAD_binding_2        PF00890.30     0.014   15.3   0.0     0.021   14.7   0.0   1.2   1   0   0   1   1   1   0 transcript=ANCCAN_25925 gene=ANCCAN_25925
+ANCCAN_03397         -          FAD_binding_2        PF00890.30     0.025   14.5   0.0     0.055   13.4   0.0   1.5   1   0   0   1   1   1   0 transcript=ANCCAN_03397 gene=ANCCAN_03397
+ANCCAN_29436         -          FAD_binding_2        PF00890.30     0.041   13.8   0.0     0.048   13.6   0.0   1.0   1   0   0   1   1   1   0 transcript=ANCCAN_29436 gene=ANCCAN_29436
+ANCCAN_11936         -          FAD_binding_2        PF00890.30     0.089   12.7   0.3      0.13   12.1   0.3   1.2   1   0   0   1   1   1   0 transcript=ANCCAN_11936 gene=ANCCAN_11936
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/n/nm471/PFam_HMM/PF00890.txt
+# Target file:     /home/n/nm471/wormbase/ancylostoma_caninum.PRJNA72585.WBPS19.protein.fa.gz
+# Option settings: /cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/hmmer-3.3.2-6xbbubuci3m4xefi3yqu6thg5loc4jju/bin/hmmsearch --tblout /home/n/nm471//PF00890_ancylostoma_caninum.out --noali -E 0.1 /home/n/nm471/PFam_HMM/PF00890.txt /home/n/nm471/wormbase/ancylostoma_caninum.PRJNA72585.WBPS19.protein.fa.gz 
+# Current dir:     /alice-home/3/n/nm471
+# Date:            Thu Dec 12 22:44:11 2024
+# [ok]

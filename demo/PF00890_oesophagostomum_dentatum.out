@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OESDEN_21240         -          FAD_binding_2        PF00890.30  1.5e-118  397.1   0.7  1.7e-118  396.9   0.7   1.0   1   0   0   1   1   1   1 transcript=OESDEN_21240 gene=OESDEN_21240
+OESDEN_06738         -          FAD_binding_2        PF00890.30   3.2e-63  214.8   0.1   3.7e-63  214.6   0.1   1.0   1   0   0   1   1   1   1 transcript=OESDEN_06738 gene=OESDEN_06738
+OESDEN_25422         -          FAD_binding_2        PF00890.30   3.2e-24   86.3   0.0     4e-24   86.0   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_25422 gene=OESDEN_25422
+OESDEN_12463         -          FAD_binding_2        PF00890.30   3.2e-21   76.5   0.0   3.4e-21   76.4   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_12463 gene=OESDEN_12463
+OESDEN_24427         -          FAD_binding_2        PF00890.30   1.4e-13   51.3   0.0   1.6e-13   51.1   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_24427 gene=OESDEN_24427
+OESDEN_09918         -          FAD_binding_2        PF00890.30   5.6e-10   39.4   1.0   9.1e-05   22.3   0.5   2.1   2   0   0   2   2   2   2 transcript=OESDEN_09918 gene=OESDEN_09918
+OESDEN_09146         -          FAD_binding_2        PF00890.30   1.3e-07   31.6   0.3   1.3e-07   31.6   0.3   2.9   3   0   0   3   3   3   1 transcript=OESDEN_09146 gene=OESDEN_09146
+OESDEN_08325         -          FAD_binding_2        PF00890.30   1.9e-07   31.1   0.4   2.7e-07   30.6   0.4   1.2   1   0   0   1   1   1   1 transcript=OESDEN_08325 gene=OESDEN_08325
+OESDEN_01945         -          FAD_binding_2        PF00890.30   3.1e-06   27.1   0.1   4.2e-06   26.7   0.1   1.3   1   1   0   1   1   1   1 transcript=OESDEN_01945 gene=OESDEN_01945
+OESDEN_13117         -          FAD_binding_2        PF00890.30   3.4e-06   27.0   0.4   4.6e-06   26.6   0.4   1.1   1   0   0   1   1   1   1 transcript=OESDEN_13117 gene=OESDEN_13117
+OESDEN_08972         -          FAD_binding_2        PF00890.30   7.4e-06   25.9   3.1   9.6e-06   25.5   3.1   1.1   1   0   0   1   1   1   1 transcript=OESDEN_08972 gene=OESDEN_08972
+OESDEN_05324         -          FAD_binding_2        PF00890.30   8.9e-06   25.6   0.5   1.4e-05   25.0   0.5   1.2   1   0   0   1   1   1   1 transcript=OESDEN_05324 gene=OESDEN_05324
+OESDEN_12459         -          FAD_binding_2        PF00890.30   5.5e-05   23.0   0.2   8.3e-05   22.4   0.2   1.2   1   0   0   1   1   1   1 transcript=OESDEN_12459 gene=OESDEN_12459
+OESDEN_02920         -          FAD_binding_2        PF00890.30   0.00029   20.6   1.0   0.00066   19.4   1.0   1.6   1   0   0   1   1   1   1 transcript=OESDEN_02920 gene=OESDEN_02920
+OESDEN_01931         -          FAD_binding_2        PF00890.30   0.00074   19.3   5.9    0.0013   18.5   3.7   2.4   2   1   1   3   3   3   1 transcript=OESDEN_01931 gene=OESDEN_01931
+OESDEN_15025         -          FAD_binding_2        PF00890.30    0.0033   17.2   2.1    0.0059   16.3   2.1   1.4   1   0   0   1   1   1   1 transcript=OESDEN_15025 gene=OESDEN_15025
+OESDEN_02965         -          FAD_binding_2        PF00890.30    0.0061   16.3   0.3    0.0091   15.7   0.3   1.2   1   0   0   1   1   1   1 transcript=OESDEN_02965 gene=OESDEN_02965
+OESDEN_06559         -          FAD_binding_2        PF00890.30    0.0074   16.0   1.6    0.0074   16.0   1.6   1.6   2   0   0   2   2   2   1 transcript=OESDEN_06559 gene=OESDEN_06559
+OESDEN_09326         -          FAD_binding_2        PF00890.30     0.017   14.8   3.3     0.047   13.4   1.1   2.2   2   0   0   2   2   2   0 transcript=OESDEN_09326 gene=OESDEN_09326
+OESDEN_09010         -          FAD_binding_2        PF00890.30     0.033   13.9   0.0     0.042   13.5   0.0   1.2   1   0   0   1   1   1   0 transcript=OESDEN_09010 gene=OESDEN_09010
+OESDEN_24739         -          FAD_binding_2        PF00890.30     0.047   13.3   0.2     0.066   12.9   0.2   1.2   1   0   0   1   1   1   0 transcript=OESDEN_24739 gene=OESDEN_24739
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/n/nm471/PFam_HMM/PF00890.txt
+# Target file:     /home/n/nm471/wormbase/oesophagostomum_dentatum.PRJNA72579.WBPS19.protein.fa.gz
+# Option settings: /cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/hmmer-3.3.2-6xbbubuci3m4xefi3yqu6thg5loc4jju/bin/hmmsearch --tblout /home/n/nm471//PF00890_oesophagostomum_dentatum.out --noali -E 0.1 /home/n/nm471/PFam_HMM/PF00890.txt /home/n/nm471/wormbase/oesophagostomum_dentatum.PRJNA72579.WBPS19.protein.fa.gz 
+# Current dir:     /alice-home/3/n/nm471
+# Date:            Thu Dec 12 22:44:12 2024
+# [ok]

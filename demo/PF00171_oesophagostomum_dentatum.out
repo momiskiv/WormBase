@@ -1,0 +1,46 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OESDEN_12623         -          Aldedh               PF00171.27  6.6e-147  490.3   0.0  7.9e-147  490.0   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_12623 gene=OESDEN_12623
+OESDEN_09121         -          Aldedh               PF00171.27  1.4e-138  462.8   0.2   2.9e-74  250.8   0.0   2.0   2   0   0   2   2   2   2 transcript=OESDEN_09121 gene=OESDEN_09121
+OESDEN_12617         -          Aldedh               PF00171.27  1.4e-138  462.8   0.0    2e-138  462.3   0.0   1.1   1   0   0   1   1   1   1 transcript=OESDEN_12617 gene=OESDEN_12617
+OESDEN_01951         -          Aldedh               PF00171.27  7.1e-138  460.5   0.1  8.7e-138  460.2   0.1   1.0   1   0   0   1   1   1   1 transcript=OESDEN_01951 gene=OESDEN_01951
+OESDEN_01982         -          Aldedh               PF00171.27  1.1e-129  433.5   0.3  1.3e-129  433.3   0.3   1.0   1   0   0   1   1   1   1 transcript=OESDEN_01982 gene=OESDEN_01982
+OESDEN_07634         -          Aldedh               PF00171.27  3.6e-115  385.6   4.7    4e-115  385.5   4.7   1.0   1   0   0   1   1   1   1 transcript=OESDEN_07634 gene=OESDEN_07634
+OESDEN_07674         -          Aldedh               PF00171.27    5e-107  358.8   0.7  5.6e-107  358.6   0.7   1.0   1   0   0   1   1   1   1 transcript=OESDEN_07674 gene=OESDEN_07674
+OESDEN_10758         -          Aldedh               PF00171.27  1.4e-104  350.7   4.8   2.1e-99  333.7   3.1   2.0   2   0   0   2   2   2   2 transcript=OESDEN_10758 gene=OESDEN_10758
+OESDEN_02473         -          Aldedh               PF00171.27   5.6e-91  305.9   0.0   6.6e-91  305.6   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_02473 gene=OESDEN_02473
+OESDEN_01625         -          Aldedh               PF00171.27     6e-89  299.2   0.0   7.1e-89  298.9   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_01625 gene=OESDEN_01625
+OESDEN_04234         -          Aldedh               PF00171.27   2.8e-86  290.4   1.2   3.4e-80  270.3   0.1   2.3   2   0   0   2   2   2   2 transcript=OESDEN_04234 gene=OESDEN_04234
+OESDEN_12221         -          Aldedh               PF00171.27   3.1e-77  260.6   0.0   3.6e-77  260.3   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_12221 gene=OESDEN_12221
+OESDEN_18290         -          Aldedh               PF00171.27   5.5e-65  220.2   0.1   6.1e-65  220.0   0.1   1.0   1   0   0   1   1   1   1 transcript=OESDEN_18290 gene=OESDEN_18290
+OESDEN_15407         -          Aldedh               PF00171.27   1.1e-54  186.2   0.0   1.3e-54  185.9   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_15407 gene=OESDEN_15407
+OESDEN_15560         -          Aldedh               PF00171.27   1.1e-51  176.4   0.6   1.2e-51  176.2   0.6   1.0   1   0   0   1   1   1   1 transcript=OESDEN_15560 gene=OESDEN_15560
+OESDEN_18743         -          Aldedh               PF00171.27   1.4e-49  169.4   0.2   1.5e-49  169.3   0.2   1.0   1   0   0   1   1   1   1 transcript=OESDEN_18743 gene=OESDEN_18743
+OESDEN_14499         -          Aldedh               PF00171.27   2.2e-45  155.5   1.1   4.4e-44  151.3   0.2   2.0   1   1   1   2   2   2   1 transcript=OESDEN_14499 gene=OESDEN_14499
+OESDEN_24077         -          Aldedh               PF00171.27   2.3e-38  132.4   0.1   2.5e-38  132.3   0.1   1.0   1   0   0   1   1   1   1 transcript=OESDEN_24077 gene=OESDEN_24077
+OESDEN_16189         -          Aldedh               PF00171.27   8.4e-35  120.7   0.0     1e-34  120.3   0.0   1.1   1   0   0   1   1   1   1 transcript=OESDEN_16189 gene=OESDEN_16189
+OESDEN_17392         -          Aldedh               PF00171.27   9.9e-30  104.0   0.0   1.1e-29  103.8   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_17392 gene=OESDEN_17392
+OESDEN_10241         -          Aldedh               PF00171.27   2.6e-29  102.5   0.0   2.9e-29  102.4   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_10241 gene=OESDEN_10241
+OESDEN_04235         -          Aldedh               PF00171.27   6.8e-29  101.2   0.0   7.3e-29  101.1   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_04235 gene=OESDEN_04235
+OESDEN_23365         -          Aldedh               PF00171.27   2.7e-23   82.7   0.1   3.1e-23   82.5   0.1   1.0   1   0   0   1   1   1   1 transcript=OESDEN_23365 gene=OESDEN_23365
+OESDEN_16936         -          Aldedh               PF00171.27   2.2e-19   69.8   0.0   2.4e-19   69.7   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_16936 gene=OESDEN_16936
+OESDEN_07675         -          Aldedh               PF00171.27   5.9e-16   58.5   0.0   6.2e-16   58.5   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_07675 gene=OESDEN_07675
+OESDEN_18540         -          Aldedh               PF00171.27   7.5e-12   45.0   0.0   8.1e-12   44.9   0.0   1.0   1   0   0   1   1   1   1 transcript=OESDEN_18540 gene=OESDEN_18540
+OESDEN_11951         -          Aldedh               PF00171.27   4.5e-08   32.6   0.0   1.7e-06   27.3   0.0   2.0   1   1   1   2   2   2   1 transcript=OESDEN_11951 gene=OESDEN_11951
+OESDEN_25403         -          Aldedh               PF00171.27   3.3e-06   26.4   0.4   3.7e-06   26.2   0.4   1.0   1   0   0   1   1   1   1 transcript=OESDEN_25403 gene=OESDEN_25403
+OESDEN_19018         -          Aldedh               PF00171.27   5.5e-05   22.4   0.2   6.2e-05   22.2   0.2   1.1   1   0   0   1   1   1   1 transcript=OESDEN_19018 gene=OESDEN_19018
+OESDEN_12446         -          Aldedh               PF00171.27    0.0013   17.8   0.1    0.0013   17.8   0.1   1.0   1   0   0   1   1   1   1 transcript=OESDEN_12446 gene=OESDEN_12446
+OESDEN_25109         -          Aldedh               PF00171.27     0.011   14.8   0.0     0.023   13.7   0.0   1.5   1   1   0   1   1   1   0 transcript=OESDEN_25109 gene=OESDEN_25109
+OESDEN_10645         -          Aldedh               PF00171.27     0.016   14.3   0.1     0.016   14.3   0.1   1.0   1   0   0   1   1   1   0 transcript=OESDEN_10645 gene=OESDEN_10645
+OESDEN_05217         -          Aldedh               PF00171.27     0.042   12.9   0.0       1.1    8.2   0.0   2.1   2   0   0   2   2   2   0 transcript=OESDEN_05217 gene=OESDEN_05217
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/n/nm471/PFam_HMM/PF00171.txt
+# Target file:     /home/n/nm471/wormbase/oesophagostomum_dentatum.PRJNA72579.WBPS19.protein.fa.gz
+# Option settings: /cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/hmmer-3.3.2-6xbbubuci3m4xefi3yqu6thg5loc4jju/bin/hmmsearch --tblout /home/n/nm471//PF00171_oesophagostomum_dentatum.out --noali -E 0.1 /home/n/nm471/PFam_HMM/PF00171.txt /home/n/nm471/wormbase/oesophagostomum_dentatum.PRJNA72579.WBPS19.protein.fa.gz 
+# Current dir:     /alice-home/3/n/nm471
+# Date:            Thu Dec 12 22:44:13 2024
+# [ok]

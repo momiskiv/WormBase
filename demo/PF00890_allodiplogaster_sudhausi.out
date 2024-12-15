@@ -1,0 +1,65 @@
+#                                                                     --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name              accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#      ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ALDISUDHAUS000013447.mRNA1 -          FAD_binding_2        PF00890.30  5.9e-128  428.7   5.8  7.5e-128  428.4   5.8   1.1   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000013447.mRNA1 gene=ALDISUDHAUS000013447
+ALDISUDHAUS000015991.mRNA1 -          FAD_binding_2        PF00890.30     4e-98  330.5   1.8     5e-98  330.1   1.8   1.0   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000015991.mRNA1 gene=ALDISUDHAUS000015991
+ALDISUDHAUS000020660.mRNA1 -          FAD_binding_2        PF00890.30   8.1e-82  276.8   0.4   9.3e-82  276.5   0.4   1.0   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000020660.mRNA1 gene=ALDISUDHAUS000020660
+ALDISUDHAUS000019768.mRNA1 -          FAD_binding_2        PF00890.30   1.2e-81  276.2   0.4   1.4e-81  276.0   0.4   1.0   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000019768.mRNA1 gene=ALDISUDHAUS000019768
+ALDISUDHAUS000013196.mRNA1 -          FAD_binding_2        PF00890.30   3.6e-08   34.2   0.2   3.1e-05   24.5   0.7   2.2   1   1   0   2   2   2   1 transcript=ALDISUDHAUS000013196.mRNA1 gene=ALDISUDHAUS000013196
+ALDISUDHAUS000008239.mRNA1 -          FAD_binding_2        PF00890.30   6.1e-08   33.4   4.6    0.0024   18.3   0.4   3.0   3   0   0   3   3   3   2 transcript=ALDISUDHAUS000008239.mRNA1 gene=ALDISUDHAUS000008239
+ALDISUDHAUS000007993.mRNA1 -          FAD_binding_2        PF00890.30   6.2e-08   33.4   4.6    0.0024   18.3   0.4   3.0   3   0   0   3   3   3   2 transcript=ALDISUDHAUS000007993.mRNA1 gene=ALDISUDHAUS000007993
+ALDISUDHAUS000013495.mRNA1 -          FAD_binding_2        PF00890.30   6.5e-08   33.3   0.2   7.8e-05   23.2   0.7   2.1   1   1   0   2   2   2   2 transcript=ALDISUDHAUS000013495.mRNA1 gene=ALDISUDHAUS000013495
+ALDISUDHAUS000013598.mRNA1 -          FAD_binding_2        PF00890.30   3.9e-06   27.5   6.3   2.4e-05   24.9   3.4   2.5   2   0   0   2   2   2   1 transcript=ALDISUDHAUS000013598.mRNA1 gene=ALDISUDHAUS000013598
+ALDISUDHAUS000001359.mRNA1 -          FAD_binding_2        PF00890.30     7e-06   26.6   1.5   1.5e-05   25.5   1.5   1.5   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000001359.mRNA1 gene=ALDISUDHAUS000001359
+ALDISUDHAUS000005401.mRNA1 -          FAD_binding_2        PF00890.30   7.7e-06   26.5   1.5   1.5e-05   25.5   1.5   1.4   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000005401.mRNA1 gene=ALDISUDHAUS000005401
+ALDISUDHAUS000032944.mRNA1 -          FAD_binding_2        PF00890.30     8e-06   26.4   4.3   6.5e-05   23.4   1.7   2.4   2   0   0   2   2   2   1 transcript=ALDISUDHAUS000032944.mRNA1 gene=ALDISUDHAUS000032944
+ALDISUDHAUS000014870.mRNA1 -          FAD_binding_2        PF00890.30   9.1e-06   26.2   7.8   2.4e-05   24.9   3.4   2.8   2   1   1   3   3   3   1 transcript=ALDISUDHAUS000014870.mRNA1 gene=ALDISUDHAUS000014870
+ALDISUDHAUS000026387.mRNA1 -          FAD_binding_2        PF00890.30     1e-05   26.1   1.0   1.4e-05   25.6   1.0   1.2   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000026387.mRNA1 gene=ALDISUDHAUS000026387
+ALDISUDHAUS000023089.mRNA1 -          FAD_binding_2        PF00890.30     1e-05   26.1   0.1   1.5e-05   25.5   0.1   1.2   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000023089.mRNA1 gene=ALDISUDHAUS000023089
+ALDISUDHAUS000003288.mRNA1 -          FAD_binding_2        PF00890.30   2.2e-05   25.0   0.6   3.3e-05   24.4   0.6   1.2   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000003288.mRNA1 gene=ALDISUDHAUS000003288
+ALDISUDHAUS000014193.mRNA1 -          FAD_binding_2        PF00890.30   3.7e-05   24.3   0.1   6.7e-05   23.4   0.1   1.4   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000014193.mRNA1 gene=ALDISUDHAUS000014193
+ALDISUDHAUS000015784.mRNA1 -          FAD_binding_2        PF00890.30   3.7e-05   24.2   0.1   6.7e-05   23.4   0.1   1.4   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000015784.mRNA1 gene=ALDISUDHAUS000015784
+ALDISUDHAUS000020950.mRNA1 -          FAD_binding_2        PF00890.30   5.7e-05   23.6   0.1   9.7e-05   22.9   0.1   1.3   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000020950.mRNA1 gene=ALDISUDHAUS000020950
+ALDISUDHAUS000000690.mRNA1 -          FAD_binding_2        PF00890.30   8.9e-05   23.0   0.3     0.008   16.6   0.5   2.1   2   0   0   2   2   2   1 transcript=ALDISUDHAUS000000690.mRNA1 gene=ALDISUDHAUS000000690
+ALDISUDHAUS000007895.mRNA1 -          FAD_binding_2        PF00890.30   0.00013   22.4   0.8   0.00021   21.8   0.8   1.3   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000007895.mRNA1 gene=ALDISUDHAUS000007895
+ALDISUDHAUS000010374.mRNA1 -          FAD_binding_2        PF00890.30   0.00016   22.1   3.6   0.00025   21.5   3.6   1.2   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000010374.mRNA1 gene=ALDISUDHAUS000010374
+ALDISUDHAUS000003861.mRNA1 -          FAD_binding_2        PF00890.30   0.00023   21.6   0.5   0.00036   21.0   0.5   1.2   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000003861.mRNA1 gene=ALDISUDHAUS000003861
+ALDISUDHAUS000011286.mRNA1 -          FAD_binding_2        PF00890.30   0.00027   21.4   0.1   0.00046   20.6   0.1   1.4   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000011286.mRNA1 gene=ALDISUDHAUS000011286
+ALDISUDHAUS000002160.mRNA1 -          FAD_binding_2        PF00890.30    0.0003   21.3   0.3     0.013   15.9   0.6   2.2   2   0   0   2   2   2   1 transcript=ALDISUDHAUS000002160.mRNA1 gene=ALDISUDHAUS000002160
+ALDISUDHAUS000034949.mRNA1 -          FAD_binding_2        PF00890.30   0.00033   21.1   3.5   0.00033   21.1   3.5   1.4   2   0   0   2   2   1   1 transcript=ALDISUDHAUS000034949.mRNA1 gene=ALDISUDHAUS000034949
+ALDISUDHAUS000002674.mRNA1 -          FAD_binding_2        PF00890.30   0.00054   20.4   0.2    0.0012   19.3   0.2   1.5   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000002674.mRNA1 gene=ALDISUDHAUS000002674
+ALDISUDHAUS000006182.mRNA1 -          FAD_binding_2        PF00890.30   0.00056   20.4   1.3   0.00095   19.6   1.3   1.3   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000006182.mRNA1 gene=ALDISUDHAUS000006182
+ALDISUDHAUS000023707.mRNA1 -          FAD_binding_2        PF00890.30   0.00092   19.6   5.9     0.025   14.9   0.7   3.1   2   1   0   3   3   3   1 transcript=ALDISUDHAUS000023707.mRNA1 gene=ALDISUDHAUS000023707
+ALDISUDHAUS000002734.mRNA1 -          FAD_binding_2        PF00890.30   0.00092   19.6   0.4    0.0023   18.4   0.4   1.6   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000002734.mRNA1 gene=ALDISUDHAUS000002734
+ALDISUDHAUS000023797.mRNA1 -          FAD_binding_2        PF00890.30    0.0014   19.0   7.2      0.04   14.3   1.5   3.1   2   1   1   3   3   3   1 transcript=ALDISUDHAUS000023797.mRNA1 gene=ALDISUDHAUS000023797
+ALDISUDHAUS000007419.mRNA1 -          FAD_binding_2        PF00890.30    0.0023   18.3   3.4     0.004   17.6   3.4   1.4   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000007419.mRNA1 gene=ALDISUDHAUS000007419
+ALDISUDHAUS000008020.mRNA1 -          FAD_binding_2        PF00890.30    0.0023   18.3   3.4     0.004   17.6   3.4   1.3   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000008020.mRNA1 gene=ALDISUDHAUS000008020
+ALDISUDHAUS000011427.mRNA1 -          FAD_binding_2        PF00890.30    0.0024   18.3   0.2    0.0034   17.8   0.2   1.2   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000011427.mRNA1 gene=ALDISUDHAUS000011427
+ALDISUDHAUS000014114.mRNA1 -          FAD_binding_2        PF00890.30    0.0027   18.1   0.6      0.18   12.1   0.3   2.2   2   0   0   2   2   2   1 transcript=ALDISUDHAUS000014114.mRNA1 gene=ALDISUDHAUS000014114
+ALDISUDHAUS000009432.mRNA1 -          FAD_binding_2        PF00890.30    0.0054   17.1   1.4      0.25   11.6   0.7   2.2   2   0   0   2   2   2   1 transcript=ALDISUDHAUS000009432.mRNA1 gene=ALDISUDHAUS000009432
+ALDISUDHAUS000001711.mRNA1 -          FAD_binding_2        PF00890.30    0.0065   16.9   0.2      0.01   16.2   0.2   1.3   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000001711.mRNA1 gene=ALDISUDHAUS000001711
+ALDISUDHAUS000002565.mRNA1 -          FAD_binding_2        PF00890.30     0.011   16.1   1.0     0.024   15.0   0.9   1.7   2   0   0   2   2   1   0 transcript=ALDISUDHAUS000002565.mRNA1 gene=ALDISUDHAUS000002565
+ALDISUDHAUS000002563.mRNA1 -          FAD_binding_2        PF00890.30     0.011   16.1   1.0     0.024   15.0   0.9   1.7   2   0   0   2   2   1   0 transcript=ALDISUDHAUS000002563.mRNA1 gene=ALDISUDHAUS000002563
+ALDISUDHAUS000023807.mRNA1 -          FAD_binding_2        PF00890.30     0.012   16.0   0.0     0.031   14.6   0.0   1.7   2   0   0   2   2   2   0 transcript=ALDISUDHAUS000023807.mRNA1 gene=ALDISUDHAUS000023807
+ALDISUDHAUS000012216.mRNA1 -          FAD_binding_2        PF00890.30     0.015   15.6   0.5     0.034   14.5   0.3   1.6   2   0   0   2   2   2   0 transcript=ALDISUDHAUS000012216.mRNA1 gene=ALDISUDHAUS000012216
+ALDISUDHAUS000001217.mRNA1 -          FAD_binding_2        PF00890.30     0.017   15.5   1.2      0.13   12.6   1.2   2.0   1   1   0   1   1   1   0 transcript=ALDISUDHAUS000001217.mRNA1 gene=ALDISUDHAUS000001217
+ALDISUDHAUS000012221.mRNA1 -          FAD_binding_2        PF00890.30     0.017   15.4   0.8     0.085   13.2   1.9   1.5   2   0   0   2   2   2   0 transcript=ALDISUDHAUS000012221.mRNA1 gene=ALDISUDHAUS000012221
+ALDISUDHAUS000008007.mRNA1 -          FAD_binding_2        PF00890.30     0.022   15.1   0.0     0.041   14.2   0.0   1.4   1   0   0   1   1   1   0 transcript=ALDISUDHAUS000008007.mRNA1 gene=ALDISUDHAUS000008007
+ALDISUDHAUS000014893.mRNA1 -          FAD_binding_2        PF00890.30     0.023   15.0   1.1      0.12   12.6   2.4   1.5   2   0   0   2   2   2   0 transcript=ALDISUDHAUS000014893.mRNA1 gene=ALDISUDHAUS000014893
+ALDISUDHAUS000014021.mRNA1 -          FAD_binding_2        PF00890.30     0.024   15.0   0.0     0.037   14.4   0.0   1.3   1   0   0   1   1   1   0 transcript=ALDISUDHAUS000014021.mRNA1 gene=ALDISUDHAUS000014021
+ALDISUDHAUS000020083.mRNA1 -          FAD_binding_2        PF00890.30     0.026   14.9   0.4     0.042   14.2   0.4   1.3   1   0   0   1   1   1   0 transcript=ALDISUDHAUS000020083.mRNA1 gene=ALDISUDHAUS000020083
+ALDISUDHAUS000007850.mRNA1 -          FAD_binding_2        PF00890.30     0.038   14.3   0.0     0.069   13.5   0.0   1.3   1   0   0   1   1   1   0 transcript=ALDISUDHAUS000007850.mRNA1 gene=ALDISUDHAUS000007850
+ALDISUDHAUS000007092.mRNA1 -          FAD_binding_2        PF00890.30     0.041   14.2   0.4     0.087   13.1   0.2   1.6   2   0   0   2   2   2   0 transcript=ALDISUDHAUS000007092.mRNA1 gene=ALDISUDHAUS000007092
+ALDISUDHAUS000017471.mRNA1 -          FAD_binding_2        PF00890.30     0.056   13.8   0.0     0.097   13.0   0.0   1.4   1   0   0   1   1   1   0 transcript=ALDISUDHAUS000017471.mRNA1 gene=ALDISUDHAUS000017471
+ALDISUDHAUS000010913.mRNA1 -          FAD_binding_2        PF00890.30     0.057   13.7   0.7     0.093   13.0   0.7   1.3   1   0   0   1   1   1   0 transcript=ALDISUDHAUS000010913.mRNA1 gene=ALDISUDHAUS000010913
+ALDISUDHAUS000012162.mRNA1 -          FAD_binding_2        PF00890.30      0.06   13.7   0.7     0.093   13.0   0.7   1.2   1   0   0   1   1   1   0 transcript=ALDISUDHAUS000012162.mRNA1 gene=ALDISUDHAUS000012162
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/n/nm471/PFam_HMM/PF00890.txt
+# Target file:     /home/n/nm471/wormbase/allodiplogaster_sudhausi.PRJEB48369.WBPS19.protein.fa.gz
+# Option settings: /cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/hmmer-3.3.2-6xbbubuci3m4xefi3yqu6thg5loc4jju/bin/hmmsearch --tblout /home/n/nm471//PF00890_allodiplogaster_sudhausi.out --noali -E 0.1 /home/n/nm471/PFam_HMM/PF00890.txt /home/n/nm471/wormbase/allodiplogaster_sudhausi.PRJEB48369.WBPS19.protein.fa.gz 
+# Current dir:     /alice-home/3/n/nm471
+# Date:            Thu Dec 12 22:44:12 2024
+# [ok]

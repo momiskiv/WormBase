@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OESDEN_12342         -          Sdh5                 PF03937.21     1e-13   51.5   0.1   1.8e-13   50.7   0.1   1.4   1   0   0   1   1   1   1 transcript=OESDEN_12342 gene=OESDEN_12342
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/n/nm471/PFam_HMM/PF03937.txt
+# Target file:     /home/n/nm471/wormbase/oesophagostomum_dentatum.PRJNA72579.WBPS19.protein.fa.gz
+# Option settings: /cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/hmmer-3.3.2-6xbbubuci3m4xefi3yqu6thg5loc4jju/bin/hmmsearch --tblout /home/n/nm471//PF03937_oesophagostomum_dentatum.out --noali -E 0.1 /home/n/nm471/PFam_HMM/PF03937.txt /home/n/nm471/wormbase/oesophagostomum_dentatum.PRJNA72579.WBPS19.protein.fa.gz 
+# Current dir:     /alice-home/3/n/nm471
+# Date:            Thu Dec 12 22:44:15 2024
+# [ok]

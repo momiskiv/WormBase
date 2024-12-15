@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ANCCAN_29375         -          Sdh_cyt              PF01127.27     2e-21   77.0   0.4   2.5e-21   76.7   0.4   1.1   1   0   0   1   1   1   1 transcript=ANCCAN_29375 gene=ANCCAN_29375
+ANCCAN_09580         -          Sdh_cyt              PF01127.27   1.6e-18   67.7   0.3   1.6e-18   67.7   0.3   1.7   2   0   0   2   2   2   1 transcript=ANCCAN_09580 gene=ANCCAN_09580
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/n/nm471/PFam_HMM/PF01127.txt
+# Target file:     /home/n/nm471/wormbase/ancylostoma_caninum.PRJNA72585.WBPS19.protein.fa.gz
+# Option settings: /cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/hmmer-3.3.2-6xbbubuci3m4xefi3yqu6thg5loc4jju/bin/hmmsearch --tblout /home/n/nm471//PF01127_ancylostoma_caninum.out --noali -E 0.1 /home/n/nm471/PFam_HMM/PF01127.txt /home/n/nm471/wormbase/ancylostoma_caninum.PRJNA72585.WBPS19.protein.fa.gz 
+# Current dir:     /alice-home/3/n/nm471
+# Date:            Thu Dec 12 22:44:13 2024
+# [ok]

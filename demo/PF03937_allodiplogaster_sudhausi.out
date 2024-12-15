@@ -1,0 +1,16 @@
+#                                                                     --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name              accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#      ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ALDISUDHAUS000027333.mRNA1 -          Sdh5                 PF03937.21   4.4e-22   78.9   0.0   5.5e-22   78.6   0.0   1.1   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000027333.mRNA1 gene=ALDISUDHAUS000027333
+ALDISUDHAUS000023899.mRNA1 -          Sdh5                 PF03937.21   6.4e-22   78.4   0.0   7.8e-22   78.1   0.0   1.1   1   0   0   1   1   1   1 transcript=ALDISUDHAUS000023899.mRNA1 gene=ALDISUDHAUS000023899
+ALDISUDHAUS000026361.mRNA1 -          Sdh5                 PF03937.21     0.011   16.8   0.7     0.031   15.3   0.1   2.0   2   0   0   2   2   2   0 transcript=ALDISUDHAUS000026361.mRNA1 gene=ALDISUDHAUS000026361
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/n/nm471/PFam_HMM/PF03937.txt
+# Target file:     /home/n/nm471/wormbase/allodiplogaster_sudhausi.PRJEB48369.WBPS19.protein.fa.gz
+# Option settings: /cm/shared/spack/opt/spack/linux-rocky9-x86_64_v3/gcc-12.3.0/hmmer-3.3.2-6xbbubuci3m4xefi3yqu6thg5loc4jju/bin/hmmsearch --tblout /home/n/nm471//PF03937_allodiplogaster_sudhausi.out --noali -E 0.1 /home/n/nm471/PFam_HMM/PF03937.txt /home/n/nm471/wormbase/allodiplogaster_sudhausi.PRJEB48369.WBPS19.protein.fa.gz 
+# Current dir:     /alice-home/3/n/nm471
+# Date:            Thu Dec 12 22:44:14 2024
+# [ok]
