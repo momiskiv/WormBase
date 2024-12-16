@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pandas
+urllib3
+argparse
+biopython
+matplotlib
+numpy
+os
