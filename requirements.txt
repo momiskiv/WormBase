@@ -1,9 +1,12 @@
 requests
 beautifulsoup4
 pandas
-urllib3
 argparse
+gzip
+shutil
+os
+subprocess
 biopython
 matplotlib
 numpy
-os
+glob

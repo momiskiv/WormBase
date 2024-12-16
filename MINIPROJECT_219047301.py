@@ -14,6 +14,7 @@ try:
     from Bio import SearchIO
     import matplotlib.pyplot as plt
     import numpy as np
+    import glob
 except ImportError as e: #Suggested by ChatGPT (Prompt: "How do I make sure that my user has all these modules?")
     print(f"Error: {e.name} module is not installed. Please install it using pip.")
 
@@ -119,7 +120,7 @@ if args.download_fasta:
 
     #Retrieving data from csv
 
-    for index in args.download:
+    for index in args.download_fasta:
         row = species_data.loc[index]
         raw_species_name = row["Species"]
         species_name = species_name_formatting(raw_species_name)
@@ -179,7 +180,12 @@ if args.download_hmm:
         print("The HMM annotations have been successfully unzipped.")  
         if not hmm_download:
             print(f"Could not download {pf_id} identifier from PFam database.")
-    print(f"Total number of files = {len(PF_identifiers)}.\nAvailable in the {pf_dir} directory.")
+        
+        for gz in glob.glob("*.gz"):
+            os.remove(gz)
+            print(f"Deleted compressed file {gz}")
+
+    print(f"Total number of .txt files = {len(PF_identifiers)}.\nAvailable in the {pf_dir} directory.")
 
 ##FUNCTION 2: GENERATE SLURP SUBMISSION SCRIPT FOR HMMSEARCH##
 
@@ -356,7 +362,6 @@ Let's use one of the demo files (available on GitHub; refer to user guide), a HM
         df_allo=None
         df_ancy=None
         df_oeso=None
-        default_evalue_filter = 0.05
 
         def hmmparser(gitfile, filter_evalue, outfile_name):
             
@@ -383,7 +388,7 @@ Let's use one of the demo files (available on GitHub; refer to user guide), a HM
             # Saving hmmsearch csv
             df.to_csv(outfile_name, index=False)
 
-            print("\033[34mFile generated in 'demo' directory.\n")
+            print("\033[34mFile generated in 'WormQuest_demo' directory.\n")
 
             return df
 
@@ -435,16 +440,18 @@ Let's use one of the demo files (available on GitHub; refer to user guide), a HM
         print("Showing graphs...")
         plt.savefig("distribution_hmmsearch.png")
         plt.show()
-        print("Saved graphs in 'demo' directory.\n")
+        print("Saved graphs in 'WormQuest_demo' directory.\n")
 
         print("\033[0mFinally, WormQuest can create graphs using multiple output files.\nFor example, we can make a graph showcasing the number of hits obtained from three species searches.")
         print("\nLet's use the same PFAM identifier but against species Ancylostoma caninum and Oesophagostomum dentatum.\n")
 
         ancylostoma = git_grab("ancylostoma_caninum")
-        df_ancy = hmmparser(ancylostoma, default_evalue_filter, "hmmsearch_ancylostoma_results.csv")
+        df_ancy = hmmparser(ancylostoma, filter, "hmmsearch_ancylostoma_results.csv")
 
         oesophagostomum = git_grab("oesophagostomum_dentatum")
-        df_oeso = hmmparser(oesophagostomum, default_evalue_filter, "hmmsearch_oesophagostomum_results.csv")
+        df_oeso = hmmparser(oesophagostomum, filter, "hmmsearch_oesophagostomum_results.csv")
+
+        #keeping the filter the same to make the results comparable
 
         print("\033[34mCreating...")
 
@@ -469,11 +476,11 @@ Let's use one of the demo files (available on GitHub; refer to user guide), a HM
         plt.grid(axis='y', linestyle='--', alpha=0.7)
 
         #Exporting 
-        
+
         print("Showing graph...")
         plt.savefig("query_comparison.png")
         plt.show()
-        print("Saved graphs in 'demo' directory.\n")
+        print("Saved graphs in 'WormQuest_demo' directory.\n")
 
         print("\033[0mThank you for using the WormQuest analysis demo!\n")
 
