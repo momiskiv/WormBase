@@ -8,6 +8,11 @@ import argparse
 import gzip
 import shutil
 import subprocess
+from io import StringIO
+from Bio import SearchIO
+import matplotlib.pyplot as plt
+import numpy as np
+
 
 ##PARSER##
 
@@ -46,6 +51,7 @@ if args.species is None:
                             It requires the user to use species indexes from the .csv file.
           ''')
     exit()
+
 if args.mine:    
     #Using BeautifulSoup, the script scrapes the html content of the wormbase main page for species, and adds them to a .csv for user reference:
 
@@ -304,30 +310,171 @@ module load hmmer/3.3.2-6xbbubu
 
 #wormquest.py analysis -d = demos the parsing and analysis of HMMER files
 
+demo_dir = "WormQuest_demo"
+
 if args.demo:
+    print('''Welcome to the WormQuest demo!
 
-    print(f'''Welcome to the WormQuest demo!
-
-This demo will show how WormQuest can parse and analysise HMMsearch output files.
+This demo will show how WormQuest can parse and analyse HMMsearch output files.
 
 WormQuest can create scripts for HMMer searches using the HPC ALICE system (refer to [hpc -hmms] tool).
-Within the WormQuest GitHub Repo, you will be able to access the 'demo' directory. Please ensure you have acquired this in your working directory before proceeding.
+It's able to parse through them, and generate a variety of tables, figures and summaries.
+
+Let's use one of the demo files (available on GitHub; refer to user guide), a HMMsearch of the PF00171 identifier across Allodiplogaster sudhausi proteins.
+          
     ''')
 
-    dir_check = input("Do you have the 'demo' directory within your current working directory? [y/n]: ")
-    if dir_check.lower() == "y":
-        print(f'''The 'demo' directory contains 18 HMMsearch output files using six HMM PFAM files and three nematode species from the WormBase database.
-WormQuest is able to parse through them, and generate a variety of tables, figures and summaries.
-        ''')
-        print('''Please select an option:
-[a] Graphs
-[b] Tables
-[c] Summaries
-[d] Exit''')
+    # Raw GitHub file URL
+    def git_grab(filename):
+
+        url = f"https://raw.githubusercontent.com/momiskiv/WormQuest/refs/heads/main/demo/PF00171_{filename}.out"
+
+        #Get files from GitHub repo
+
+        response = requests.get(url)
+        response.raise_for_status()  #checking for errors
+
+        file_like_object = StringIO(response.text) # Content into object to parse
+
+        print("\033[34mObtained file from GitHub successfully.\n")
+
+        return file_like_object
+
+    try:
+
+        allodiplogaster = git_grab("allodiplogaster_sudhausi")
+
+        #Parse with BioPython
+    
+        allo_results = SearchIO.parse(allodiplogaster, "hmmer3-tab")
+
+        print("\033[0mWormBase can parse the file for analysis.\n")
+
+        filter = input("You can choose to filter results by E-value.\nYou can choose one now (ex. 0.05): ")
+        print("\n")
+
+        # Processing...
+
+        df_allo=None
+        df_ancy=None
+        df_oeso=None
+        default_evalue_filter = 0.05
+
+        def hmmparser(gitfile, filter_evalue, outfile_name):
+            
+            results = SearchIO.parse(gitfile, "hmmer3-tab")
+
+            # Create a list to store the summary data
+            summary = []
+
+            for query in results:
+                for hit in query.hits:
+                    for hsp in hit.hsps:  # High-scoring Segment Pairs
+                        if hsp.evalue < float(filter_evalue):  # Filter hits with specified filter
+                            summary.append({
+                                "query_id": query.id,
+                                "hit_id": hit.id,
+                                "hit_description": hit.description,
+                                "evalue": hsp.evalue,
+                                "score": hsp.bitscore
+                            })
+
+            # Convert the summary list into a pandas DataFrame
+            df = pd.DataFrame(summary)
+
+            # Output the results to a CSV file
+            df.to_csv(outfile_name, index=False)
+
+            print("\033[34mFile generated in 'demo' directory.\n")
+
+            return df
+
+        # Output the results to a CSV file in demo directory
+
+        os.makedirs(demo_dir, exist_ok=True)
+        os.chdir(demo_dir)
+
+        df_allo = hmmparser(allodiplogaster, filter, "hmmsearch_allodigaster_results.csv")
 
 
+        print("\033[0mYou will now have a .csv file with the results.It allows for easy reading and for filtering.\nThe result should look something like this:\n")
+        print(df_allo.head())
+        print("\n")
+
+        print("We could find the hit with the smallest E-value.\n")
+
+        smallest_evalue = df_allo["evalue"].idxmin()
+        value = df_allo.loc[smallest_evalue, 'evalue']
+        match = df_allo.loc[smallest_evalue, 'hit_id']
+        print(f"\033[34mThe hit with the smallest e-value is {match} (E = {value}).\n") #blue text
+
+        print("\033[0mWormQuest also allows to make graphs with the data.\nFor instance, we can make a histogram to show the distribution of the E-values and bit scores for our search.\n")
+        print("\033[34mCreating...")
+
+        df_allo['-log_evalue'] = -np.log10(df_allo['evalue'])
+        # Create subplots
+        fig, axs = plt.subplots(1, 2, figsize=(14, 6))
+
+        # Plot the E-value distribution
+        axs[0].hist(df_allo['-log_evalue'], bins=20, color='red', edgecolor='black')
+        axs[0].set_title('Distribution of E-values')
+        axs[0].set_xlabel('E-value (-log10)')
+        axs[0].set_ylabel('Frequency')
+        axs[0].grid(axis='y', linestyle='--', alpha=0.7)
+
+        # Plot the Bit Score distribution
+        axs[1].hist(df_allo['score'], bins=10, color='blue', edgecolor='black', alpha=0.7)
+        axs[1].set_title('Distribution of HMMER Bit Scores')
+        axs[1].set_xlabel('Bit Score')
+        axs[1].set_ylabel('Frequency')
+        axs[1].grid(axis='y', linestyle='--', alpha=0.7)
+
+        # Adjust layout and display
+        plt.tight_layout()
+        print("Showing graphs...")
+        plt.savefig("distribution_hmmsearch.png")
+        plt.show()
+        print("Saved graphs in 'demo' directory.\n")
+
+        print("\033[0mFinally, WormQuest can create graphs using multiple output files.\nFor example, we can make a graph showcasing the number of hits obtained from three species searches.")
+        print("\nLet's use the same PFAM identifier but against species Ancylostoma caninum and Oesophagostomum dentatum.\n")
+
+        ancylostoma = git_grab("ancylostoma_caninum")
+        df_ancy = hmmparser(ancylostoma, default_evalue_filter, "hmmsearch_ancylostoma_results.csv")
+
+        oesophagostomum = git_grab("oesophagostomum_dentatum")
+        df_oeso = hmmparser(oesophagostomum, default_evalue_filter, "hmmsearch_oesophagostomum_results.csv")
+
+        print("\033[34mCreating...")
+
+        df_allo['dataset'] = 'Allodiplogaster_sudhausi'
+        df_ancy['dataset'] = 'Ancylostoma_caninum'
+        df_oeso['dataset'] = 'Oesophagostomum_dentatum'
+
+        #Concatenate the datasets into one DataFrame
+        df_combined = pd.concat([df_allo, df_ancy, df_oeso], ignore_index=True)
+
+        #Count the number of queries per dataset
+        query_counts = df_combined['dataset'].value_counts()
+
+        plt.figure(figsize=(8, 6))
+        query_counts.plot(kind='bar', color=['blue', 'green', 'red'])
+        plt.title('Number of Queries per Dataset')
+        plt.xlabel('Dataset')
+        plt.ylabel('Number of Queries')
+        plt.xticks(rotation=0)
+        plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+        print("Showing graph...")
+        plt.savefig("query_comparison.png")
+        plt.show()
+        print("Saved graphs in 'demo' directory.\n")
+
+        print("\033[0mThank you for using the WormQuest analysis demo!\n")
 
 
-    #Parse through the files (function?)
-
-        exit()
+    except requests.exceptions.RequestException as e:
+        print(f"\033[31mError fetching file: {e}") #red text
+        
+    except Exception as e:
+        print(f"\033[31mError parsing file: {e}") #red text
