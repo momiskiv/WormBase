@@ -15,6 +15,7 @@ try:
     import matplotlib.pyplot as plt
     import numpy as np
     import glob
+
 except ImportError as e: #Suggested by ChatGPT (Prompt: "How do I make sure that my user has all these modules?")
     print(f"Error: {e.name} module is not installed. Please install it using pip.")
 
@@ -141,15 +142,17 @@ if args.download_fasta:
 pf_dir = "PFam_HMM"
 
 if args.download_hmm:
+
     #reading tsv
+
     SD_matches = pd.read_csv('SearchResults-succinatedehydrogenase.tsv', sep="\t", header = 0)
 
     #Find PFam identifiers
+
     PF_identifiers = SD_matches[SD_matches['Accession'].str.startswith('PF', na=False)]['Accession'].tolist()
 
-    #Downloading HMMs from PFam
-
     ##Create a directory in the current working directory for HMM files
+
     os.makedirs(pf_dir, exist_ok=True)
     os.chdir(pf_dir)
 
@@ -195,6 +198,7 @@ if args.download_hmm:
         
 if args.transfer:
 
+    #moving files to ALICE within code 
 
     def transfer_directory(dir, username):
         try:
@@ -351,8 +355,6 @@ Let's use one of the demo files (available on GitHub; refer to user guide), a HM
         allodiplogaster = git_grab("allodiplogaster_sudhausi")
 
         #Parse with BioPython
-    
-        allo_results = SearchIO.parse(allodiplogaster, "hmmer3-tab")
 
         print("\033[0mWormBase can parse the file for analysis.\n")
 
@@ -362,6 +364,8 @@ Let's use one of the demo files (available on GitHub; refer to user guide), a HM
         df_allo=None
         df_ancy=None
         df_oeso=None
+
+        #Parsing hmmersearch results with function, gathered from BioPython tutorials https://biopython.org/wiki/SearchIO
 
         def hmmparser(gitfile, filter_evalue, outfile_name):
             
@@ -412,11 +416,13 @@ Let's use one of the demo files (available on GitHub; refer to user guide), a HM
         print(f"\033[34mThe hit with the smallest e-value is {match} (E = {value}).\n") #blue text
 
         print("\033[0mWormQuest also allows to make graphs with the data.\nFor instance, we can make a histogram to show the distribution of the E-values and bit scores for our search.\n")
+        print("The E-values will be negative logged. So the larger the value in the graph, the smallest the E-value is.\n")
         print("\033[34mCreating...")
 
         df_allo['-log_evalue'] = -np.log10(df_allo['evalue'])
 
         fig, axs = plt.subplots(1, 2, figsize=(14, 6)) #subplots
+        fig.suptitle('Data Distribution for HMMsearch for PF00171 against Allodiplogaster sudhausi proteins', fontsize=14)
 
         #E-value distribution
 
@@ -469,16 +475,16 @@ Let's use one of the demo files (available on GitHub; refer to user guide), a HM
 
         plt.figure(figsize=(8, 6))
         query_counts.plot(kind='bar', color=['blue', 'green', 'red'])
-        plt.title('Number of Queries per Dataset')
-        plt.xlabel('Dataset')
-        plt.ylabel('Number of Queries')
+        plt.title('Number of HMMsearch PF00171 Hits per Species')
+        plt.xlabel('Species')
+        plt.ylabel('Number of Hits')
         plt.xticks(rotation=0)
         plt.grid(axis='y', linestyle='--', alpha=0.7)
 
         #Exporting 
 
         print("Showing graph...")
-        plt.savefig("query_comparison.png")
+        plt.savefig("total_hits_comparison.png")
         plt.show()
         print("Saved graphs in 'WormQuest_demo' directory.\n")
 
